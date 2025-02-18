@@ -9,17 +9,17 @@ return {
 	},
   {
     "catppuccin/nvim",
-    --name = "catppuccin",
-    --priotity = 1000,
-    --config = function()
-      --vim.cmd([[colorscheme catppuccin]])
-    --end,
+    name = "catppuccin",
+    priotity = 1000,
+    config = function()
+      vim.cmd([[colorscheme catppuccin]])
+    end,
   },
   {
     "ellisonleao/gruvbox.nvim",
-    priority = 1000,
-    config = function()
-      vim.cmd([[colorscheme gruvbox]])
-    end,
+    --priority = 1000,
+    --config = function()
+      --vim.cmd([[colorscheme gruvbox]])
+    --end,
   },
 }
