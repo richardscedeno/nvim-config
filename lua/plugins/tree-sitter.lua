@@ -3,18 +3,18 @@ return {
   build = ":TSUpdate",
   event = "VeryLazy",
   main  = "nvim-treesitter.configs",
-  opt = {
+  opts = {
     ensure_installed = {
       "lua",
       "luadoc",
       "javascript",
       "tsx",
-      "typescrypt",
+      "typescript",
       "css",
       "html",
       "json",
-      "emmet_language_server",
       "vim",
+      "python",
     },
     sync_install = false,
     auto_install = true,
